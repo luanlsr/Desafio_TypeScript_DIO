@@ -1,0 +1,28 @@
+{
+  "name": "desafio_typescript_dio",
+  "version": "1.0.0",
+  "description": "Desafio de TypeScript proposto no Bootcamp Santander Fullstack Developer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server",
+    "watch": "tsc --watch"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luanlsr/Desafio_TypeScript_DIO.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luanlsr/Desafio_TypeScript_DIO/issues"
+  },
+  "homepage": "https://github.com/luanlsr/Desafio_TypeScript_DIO#readme",
+  "devDependencies": {
+    "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

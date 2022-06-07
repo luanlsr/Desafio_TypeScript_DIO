@@ -1,0 +1,126 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url("https://img.freepik.com/fotos-gratis/objetos-de-filme-em-fundo-whita_53876-42873.jpg?w=2000");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+#btn-back {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    height: 40px;
+    margin-top: 2px;
+    padding-left: 16px;
+    background-color: red;
+    border-radius: 6px;
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+#login-container {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 240px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#login-container input {
+    height: 40px;
+    margin-top: 2px;
+    padding-left: 16px;
+    border: 3px solid green;
+    border-radius: 6px;
+}
+
+#login-container button {
+    height: 40px;
+    margin-top: 2px;
+    padding-left: 16px;
+    background-color: green;
+    border-radius: 6px;
+    color: white;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+#login-container button:hover {
+    filter: brightness(0.8);
+}
+
+#search-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+#search-container input {
+    height: 40px;
+    margin-top: 2px;
+    padding-left: 16px;
+    border: 3px solid green;
+    border-radius: 6px;
+    margin-bottom: 5px;
+}
+
+#search-container button {
+    height: 40px;
+    margin-top: 2px;
+    padding-left: 16px;
+    background-color: green;
+    border-radius: 6px;
+    color: white;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+#search-container ul {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#search-container li {
+    background-color: white;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid green;
+    margin-top: 20px;
+    border-radius: 26px;
+    box-shadow: 1px 1px 11px 0px green;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+#search-container li:hover {
+    transform: scale(1.1);
+}
+
+#search-container h3 {
+    text-align: center;
+}
+
+#search-container li img {
+    border-radius: 0px 0px 20px 20px;
+}

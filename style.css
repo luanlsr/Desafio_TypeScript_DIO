@@ -13,29 +13,28 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 200px;
 }
 
 #container h1 {
     background-color: rgb(250, 95, 48);
     padding: 30px;
     border-radius: 16px;
+    margin-bottom: 240px;
 }
 
 #btn-back {
     position: absolute;
-    left: 30px;
-    top: 30px;
+    left: 5px;
+    top: 320px;
     height: 40px;
-    margin-top: 2px;
-    padding-left: 16px;
     background-color: red;
     border-radius: 6px;
     color: white;
-    font-size: 20px;
+    font-size: 12px;
     border: none;
     cursor: pointer;
-    margin-top: 16px;
+    padding: 3px;
+    align-items: center;
 }
 
 #login-container {
@@ -108,6 +107,10 @@ body {
 #search-container ul {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 0;
 }
 
 
@@ -137,13 +140,6 @@ body {
     border-radius: 0px 0px 20px 20px;
 }
 
-@media (max-width: 1400px) {
-    body {
-        background-image: url("https://imagensemoldes.com.br/wp-content/uploads/2020/06/Imagem-Elementos-Cinema-PNG.png");
-        background-repeat: repeat;
-        background-size: contain;
-    }
-}
 
 #footer {
     margin-top: 220px;
@@ -151,4 +147,16 @@ body {
     color: white;
     padding: 16px;
     border-radius: 26px;
+}
+
+@media (max-width: 1400px) {
+    body {
+        background-image: url("https://imagensemoldes.com.br/wp-content/uploads/2020/06/Imagem-Elementos-Cinema-PNG.png");
+        background-repeat: repeat;
+        background-size: contain;
+    }
+
+    #search-container li {
+        width: 300px;
+    }
 }

@@ -16,6 +16,12 @@ body {
     margin-top: 200px;
 }
 
+#container h1 {
+    background-color: rgb(250, 95, 48);
+    padding: 30px;
+    border-radius: 16px;
+}
+
 #btn-back {
     position: absolute;
     left: 30px;
@@ -39,6 +45,9 @@ body {
     height: 240px;
     justify-content: space-between;
     flex-direction: column;
+    background-color: rgb(250, 95, 48);
+    padding: 30px;
+    border-radius: 16px;
 }
 
 #login-container input {
@@ -70,6 +79,9 @@ body {
     display: flex;
     flex-direction: column;
     margin-top: 30px;
+    background-color: rgb(250, 95, 48);
+    padding: 30px;
+    border-radius: 16px;
 }
 
 #search-container input {
@@ -123,4 +135,20 @@ body {
 
 #search-container li img {
     border-radius: 0px 0px 20px 20px;
+}
+
+@media (max-width: 1400px) {
+    body {
+        background-image: url("https://imagensemoldes.com.br/wp-content/uploads/2020/06/Imagem-Elementos-Cinema-PNG.png");
+        background-repeat: repeat;
+        background-size: contain;
+    }
+}
+
+#footer {
+    margin-top: 220px;
+    background-color: black;
+    color: white;
+    padding: 16px;
+    border-radius: 26px;
 }
